@@ -1,5 +1,5 @@
 let randomNumberArray = [];
-let secretNumLimit = 10;
+let secretNumLimit = 100;
 let secretNum = autoNumGen();
 let tries = 1;
 let repeatedGuess = []
