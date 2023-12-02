@@ -1,5 +1,5 @@
 let randomNumberArray = [];
-let secretNumLimit = 100;
+let secretNumLimit = 10;
 let secretNum = autoNumGen();
 let tries = 1;
 let repeatedGuess = []
@@ -9,8 +9,6 @@ function showScreenText(tag, text){
     space.innerHTML = text;
     responsiveVoice.speak(text,'Brazilian Portuguese Female',{rate:1.2});
 }
-
-
 
 function showIniText(){
 
